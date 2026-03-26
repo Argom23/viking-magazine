@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡️ Vikingr Magazine
 
-## Getting Started
+Una revista web moderna inspirada en la estética nórdica, desarrollada con **Next.js + Tailwind CSS**, enfocada en contenido editorial sobre historia, mitología y cultura vikinga.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🌌 Descripción
+
+**Vikingr Magazine** es una web tipo revista digital que combina:
+
+* diseño editorial moderno
+* estética nórdica (niebla, piedra, mar)
+* estructura escalable para artículos
+* componentes reutilizables
+
+El proyecto está pensado como base para:
+
+* blogs históricos
+* revistas digitales
+* proyectos narrativos interactivos
+
+---
+
+## 🧱 Stack tecnológico
+
+* ⚛️ Next.js (App Router)
+* 🎨 Tailwind CSS v4
+* 🧩 Componentes modulares (React)
+* 🖼️ Assets en `/public`
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+app/
+  page.tsx
+
+components/
+  Navbar.tsx
+  Hero.tsx
+  FeaturedArticles.tsx
+  SectionsGrid.tsx
+  Newsletter.tsx
+
+public/
+  images/
+    asgard.jpg
+    yggdrasil.jpg
+    Valhallaa.jpg
+    placeholder.png
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧩 Componentes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🧭 Navbar
 
-## Learn More
+* navegación principal
+* configurable vía props
 
-To learn more about Next.js, take a look at the following resources:
+### 🌫️ Hero
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* portada editorial
+* imagen de fondo (Asgard)
+* CTA principal + secundaria
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📜 FeaturedArticles
 
-## Deploy on Vercel
+* grid de artículos
+* soporta placeholders
+* diseño tipo revista
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🧱 SectionsGrid
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* organización de contenido
+* categorías del sitio
+
+### 📩 Newsletter
+
+* formulario de suscripción
+* preparado para integración futura
+
+---
+
+## ⚙️ Instalación
+
+```bash
+git clone <repo>
+cd viking-magazine
+npm install
+npm run dev
+```
+
+---
+
+## 🎨 Paleta de colores
+
+```txt
+#0C7489  (azul profundo)
+#13505B  (verde oscuro)
+#918868  (piedra/dorado apagado)
+#FCFAF9  (blanco roto)
+#B4D2E7  (azul claro)
+```
+
+---
+
+## 🧠 Concepto visual
+
+El diseño se inspira en:
+
+* paisajes del norte
+* mitología nórdica
+* arquitectura monumental
+* estética editorial moderna
+
+---
+
+## 📚 Artículos actuales
+
+* 🪓 Barcos vikingos (Ensayo)
+* ⚔️ Batalla de Stamford Bridge (Periódico)
+* 🌊 Relato de un vikingo (Diario)
+* 🧿 Tatuajes y símbolos (Cultura)
+* 🛡️ Mujeres vikingas (Testimonio)
+* 🌍 Leif Eriksen (Entrevista)
+
+- placeholders para futuras publicaciones
+
+---
+
+## 🚀 Próximas mejoras
+
+* [ ] Integración real de newsletter
+* [ ] Animaciones (Framer Motion)
+* [ ] CMS (Sanity / Contentful)
+* [ ] Páginas individuales de artículos
+* [ ] SEO + metadata
+* [ ] Dark/light variations
+
+---
+
+## ⚠️ Notas técnicas
+
+* `Newsletter.tsx` usa `"use client"` por eventos (`onSubmit`)
+* resto de componentes = Server Components
+* imágenes deben ir en `/public/images`
+
+---
+
+## 👾 Autor
+
+Proyecto desarrollado como base editorial con enfoque en:
+
+* desarrollo web moderno
+* diseño UI/UX
+* narrativa histórica
+
+---
