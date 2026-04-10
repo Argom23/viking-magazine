@@ -28,7 +28,7 @@ export default function Hero({
                                  primaryCtaHref = "#destacados",
                                  secondaryCtaLabel = "Suscribirse",
                                  secondaryCtaHref = "#newsletter",
-                                 backgroundImage = "/images/asgard.jpg",
+                                 backgroundImage = "images/asgard.jpg",
                                  cardLabel = "Portada",
                                  cardTitle = "Donde los dioses observan, las sagas empiezan.",
                                  highlights = defaultHighlights,

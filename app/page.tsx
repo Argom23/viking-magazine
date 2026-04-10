@@ -13,41 +13,41 @@ export default function Page() {
       title: "Barcos vikingos: ingeniería del mar del norte",
       excerpt:
           "Cómo eran construidos, para qué servían, tipos de embarcaciones, materiales y detalles sobre los viajes a través de mares hostiles.",
-      image: "/images/placeholder.png",
+      image: "images/placeholder.png",
     },
     {
       category: "Periódico • Arturo",
       title: "La batalla de Stamford Bridge y el fin de una era",
       excerpt:
           "La derrota del rey Haraldo Hardrada marca el cierre de la era vikinga en un enfrentamiento decisivo en Inglaterra.",
-      image: "/images/placeholder.png",
+      image: "images/placeholder.png",
     },
     {
       category: "Diario • Andersson",
       title: "Relatos de un vikingo a su familia",
       excerpt:
           "Un guerrero regresa del mar y narra a su esposa e hijos sus travesías, peligros y descubrimientos en tierras lejanas.",
-      image: "/images/placeholder.png",
+      image: "images/placeholder.png",
     },
     {
       category: "Testimonio • Gabo",
       title: "Mujeres en la sociedad vikinga",
       excerpt:
           "Guerreras, líderes y figuras clave: privilegios, derechos y el verdadero rol de las mujeres en el mundo nórdico.",
-      image: "/images/placeholder.png",
+      image: "images/placeholder.png",
     },
     {
       category: "Entrevista • Cesar",
       title: "Conversación con Leif Eriksen",
       excerpt:
           "Una entrevista imaginaria con uno de los primeros europeos en llegar a América, explorando sus viajes, motivaciones y legado.",
-      image: "/images/placeholder.png",
+      image: "images/placeholder.png",
     },
     {
       category: "Próximamente",
       title: "Nuevo artículo en desarrollo",
       excerpt: "Este espacio está reservado para futuras crónicas del mundo nórdico.",
-      image: "/images/placeholder.png",
+      image: "images/placeholder.png",
       placeholder: true,
     },
   ];
@@ -97,7 +97,7 @@ export default function Page() {
             eyebrow="Edición de los nueve reinos"
             title="Una revista nórdica con niebla, piedra, dioses y memoria."
             description="La portada ahora toma una estética más mitológica y ceremonial, con composición inspirada en reinos elevados, arquitectura monumental y paisajes del norte."
-            backgroundImage="/images/asgard.jpg"
+            backgroundImage="images/asgard.jpg"
             cardLabel="Portada"
             cardTitle="Donde los dioses observan, las sagas empiezan."
             highlights={highlights}
